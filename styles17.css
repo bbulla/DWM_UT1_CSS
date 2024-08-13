@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Tarjeta{
+    width: 300px;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+}
+
+.Avatar{
+    position: absolute;
+    width: 50px;
+    border-radius: 50%;
+    left: calc(50% - 190px);
+    top: -20px;
+}

@@ -1,0 +1,46 @@
+.img{
+    width: 10%
+}
+
+@media (max-width: 1440px) {
+    body{
+        background-color: red;
+    }
+
+    img{
+        width: 50%;
+    }
+
+    p{
+        size: 24px;
+    }
+}
+
+
+@media(max-width: 768px){
+    body{
+        background-color: green;
+    }
+
+    img{
+        width: 70%;
+    }
+
+    p{
+        size: 18px;
+    }
+}
+
+@media(max-width: 425px){
+    body{
+        background-color: blue;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    p{
+        size: 14px;
+    }
+}
